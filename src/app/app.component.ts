@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my_te_angular_app';
+  title = 'Nilesh';
+  public logo="https://www.dreamstime.com/illustration/nh-logo.html"
+
+  onSearch(){
+    alert('bhyhgvbhuhbnjk')
+  }
+  name="nilesh"
+  
 }
