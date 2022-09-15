@@ -1,49 +1,16 @@
 img {
-    height: 700px;
+    height: 50px;
   }
   
-  h5,
-  p {
-    color:black;
-    
-    text-align: justify;
+container-fluid{
+  color:navy;
+  background-color: coral;
+}
+button{
+  color:white;
+  border-color: white;
   
-  }
-  
-  .h2{
-    color:white;
-    background-color: blue;
-  }
-  
-  .card {
-    /*margin-left: 40px;*/
-    height: 200px;
-    border: none;
-  }
-  
-  .card_img {
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 2px solid;
-  
-  }
-  * {
-    box-sizing: border-box;
-  }
-  
-  
-  .bar-container {
-    width: 100%;
-    background-color: #f1f1f1;
-    text-align: center;
-    color: white;
-  }
-  
-  /* Individual bars */
-  .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
-  .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
-  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
-  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
-  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+}
+btn-outline-success.hover {
+  background-color: yellow;
+}

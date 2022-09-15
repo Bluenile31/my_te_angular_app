@@ -1,0 +1,74 @@
+<br><br><br><br>
+<marquee style="color:red;text-shadow: 5px;">
+    <h3> Chairs at Unbelievable Offers!!!! Buy Now</h3>
+</marquee>
+<div class="row">
+    <!--1st column-->
+    <div class="col col-lg-4">
+        <h4 style="margin-left: 280px;">Active Offers</h4>
+        <div *ngFor="let prod of product.slice(0,3)" [ngSwitch]="prod.status"
+            style="border:5px solid;border-radius: 10px;margin-left: 200px;margin-right: 70px;margin-top:30px;">
+
+            <img [src]="prod.img" class="prodimg"><br>
+            <div class="abc">
+                <div *ngSwitchCase="'Active'" class="text-success">
+
+                    Product: {{prod.pname | uppercase}}
+                    <br>
+                    Description: {{prod.pdesc}}
+                    <br>
+                    Price: {{prod.price | currency:'USD'}}<br>
+                </div>
+                <button type="button" class="btn btn-info">
+                    Add To Cart <span class="badge bg-success"></span>
+                  </button><br><br>
+
+
+            </div>
+            
+        </div>
+    </div>
+    
+    <!--2nd column-->
+    <div class="col col-lg-4">
+        <h4 style="margin-left: 180px;"> Offers(Coming Soon)</h4>
+        <div *ngFor="let prod of product.slice(3,6)" [ngSwitch]="prod.status"
+            style="border:5px solid;border-radius: 10px;margin-left: 110px;margin-right: 130px;margin-top:30px;">
+
+            <img [src]="prod.img" class="prodimg"><br>
+            <div class="abc">
+                <div *ngSwitchCase="'InActive'" class="text-danger">
+                    Product: {{prod.pname | uppercase}}
+                    <br>
+                    Description: {{prod.pdesc}}
+                    <br>
+                    Price: {{prod.price | currency:'USD'}}
+                </div>
+                <button type="button" disabled>Check Later</button><br><br>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--3rd column-->
+    <div class="col col-lg-4">
+        <h4 style="margin-left: 180px;">Out of Stock</h4>
+        <div *ngFor="let prod of product.slice(6,9)" [ngSwitch]="prod.status"
+            style="border:5px solid;border-radius: 10px;margin-left: 70px;margin-right: 200px;margin-top:30px;">
+            <img [src]="prod.img" class="prodimg"><br>
+            <div class="abc">
+                <div *ngSwitchDefault class="text-warning">
+                    Product: {{prod.pname | uppercase}}
+                    <br>
+                    Description: {{prod.pdesc}}
+                    <br>
+                    Price: {{prod.price | currency:'USD'}}
+                </div>
+                <button type="button" disabled>Out of Stock</button><br><br>
+            </div>
+        </div>
+    </div>
+</div>

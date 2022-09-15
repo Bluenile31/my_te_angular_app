@@ -1,0 +1,36 @@
+img{
+    height:100px;
+    width:100px;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+.prodimg{
+    height:250px;
+    width:250px;
+    margin-left:50px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+    justify-content: center;
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.abc{
+    margin-left: 50px;
+}
+h3 {
+    text-shadow: 2px 2px blue;
+  }
+  

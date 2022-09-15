@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MainscComponent } from './mainsc/mainsc.component';
 import { SearchComponent } from './search/search.component';
 import { CardsComponent } from './cards/cards.component';
+import { ChairsComponent } from './chairs/chairs.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardsComponent } from './cards/cards.component';
     NavbarComponent,
     MainscComponent,
     SearchComponent,
-    CardsComponent
+    CardsComponent,
+    ChairsComponent
   ],
   imports: [
     BrowserModule,

@@ -5,13 +5,15 @@ import { MainscComponent } from './mainsc/mainsc.component';
 
 //import { SearchComponent } from './search/search.component';
 import { CardsComponent } from './cards/cards.component';
+import { ChairsComponent } from './chairs/chairs.component';
 
 
 const routes:Routes=[
   //{path:'',component:NavbarComponent},
   //{path:'cards',component:SearchComponent},
-  {path:'',component:MainscComponent},
-  {path:'cards',component:CardsComponent}
+  {path:' ',component:MainscComponent},
+  {path:'Products',component:CardsComponent},
+  {path:'chairs',component:ChairsComponent}
 
 ];
 @NgModule({

@@ -8,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   constructor() { }
-  title = 'NH';
-  public logo="https://www.dreamstime.com/illustration/nh-logo.html"
+  
+  //public logo="https://www.dreamstime.com/illustration/nh-logo.html"
+  
   productentered: string=' '
   search_product(product_name:string):void{
 

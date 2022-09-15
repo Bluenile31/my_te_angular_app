@@ -1,0 +1,87 @@
+[
+    {
+        
+        "pname": "WingBack Chair",
+        "status": "Active",
+        "color": "green",
+        "pdesc":"Upto 50% Off on Chairs.",
+        "price":500,
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/wingback-chair-1575497792.jpg?crop=1xw:1xh;center,top&resize=980:*"
+      },
+      {
+        
+        "pname": "Director's Chair",
+        "status": "Active",
+        "color": "green",
+        "pdesc": "Buy 1 get 1 Free",
+        "price":900,
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/directors-chair2-1575498090.jpg?crop=1xw:1xh;center,top&resize=980:*"
+      },
+      {
+        
+        "pname": "Rocking Chair",
+        "status": "Active",
+        "color": "green",
+        "pdesc":"Free Delivery at Doorstep!!!",
+        "price":459,
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rocking-chair-1575497438.jpeg?crop=1xw:1xh;center,top&resize=980:*"
+      },
+      {
+        
+        "pname": "Club Chair",
+        "status": "InActive",
+        "color": "red",
+        "pdesc":"Ultra-smooth Cushioning",
+        "price":1377,
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/club-chair-2-1575574780.jpg?crop=0.435xw:0.436xh;0.289xw,0.276xh&resize=980:*"
+      },
+      
+      
+      {
+        
+        "pname": "Ghost Chair",
+        "status": "InActive",
+        "color": "red",
+        "pdesc": "Crystal white chair",
+        "price":455,
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ghost-chair-1575497442.jpeg?crop=0.4200076365024819xw:1xh;center,top&resize=980:*"
+      },
+      {
+        
+        "pname": "Recliner Chair",
+        "status": "InActive",
+        "color": "green",
+        "pdesc": "Extra Chairs Free",
+        "price":288,
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/recliner-chair-1575497441.jpg?crop=1xw:1xh;center,top&resize=980:*"
+      } ,
+      
+      {
+        
+        "pname": "Desk Chair",
+        "status": "Out of Stock",
+        "color": "yellow",
+        "pdesc": "Extra Chairs Free",
+        "price":199,
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/desk-chair-1575497438.jpeg?crop=1xw:1xh;center,top&resize=980:*"
+      },
+      {
+        
+        "pname": "Lounge Chair",
+        "status": "Out of Stock",
+        "color": "yellow",
+        "pdesc": "Extra Chairs Free",
+        "price":450,
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lounge-chair-2-1575575962.jpg?crop=0.631xw:0.632xh;0.197xw,0.196xh&resize=980:*"
+      } ,
+      {
+        
+        "pname": "Egg Chair",
+        "status": "Out of Stock",
+        "color": "yellow",
+        "pdesc":"Coming Soon",
+        "price":8251,
+        "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/egg-chair2-1575497625.jpg?crop=1xw:1xh;center,top&resize=980:*"
+      }
+      
+]
