@@ -1,0 +1,87 @@
+[
+    {
+        
+        "pname": "Coffee Table",
+        "status": "Active",
+        "color": "green",
+        "pdesc":"You can place food on it, drinks, or use it to display coffee table books, plants, or small knick-knacks.",
+        "price":500,
+        "img":"https://www.homestratosphere.com/wp-content/uploads/2017/11/jamiya-coffee-table-113017.jpg"
+      },
+      {
+        
+        "pname": "Dining Table",
+        "status": "Active",
+        "color": "green",
+        "pdesc": "They can have extra leaves to add additional seating and are usually found strictly in dining rooms.",
+        "price":900,
+        "img":"https://www.homestratosphere.com/wp-content/uploads/2017/12/overstock-dining-table-113017-870x870.jpg"
+      },
+      {
+        
+        "pname": "Bedside Table",
+        "status": "Active",
+        "color": "green",
+        "pdesc":"These almost necessary pieces of furniture make it helpful for placing items within arms-reach from the bed",
+        "price":459,
+        "img":"https://www.homestratosphere.com/wp-content/uploads/2017/12/amazon-prepac-sonoma-2-drawer-nightstand-122017-870x870.jpg"
+      },
+      {
+        
+        "pname": "Pub Table",
+        "status": "InActive",
+        "color": "red",
+        "pdesc":"Pub tables are tall and come with stools. They usually seat two to four people.",
+        "price":1377,
+        "img":"https://www.homestratosphere.com/wp-content/uploads/2017/12/wayfair-pub-table-113017.jpg"
+      },
+      
+      
+      {
+        
+        "pname": "Work Table",
+        "status": "InActive",
+        "color": "red",
+        "pdesc": "Work tables are highly utilitarian and are usually built with a specific job in mind",
+        "price":455,
+        "img":"https://www.homestratosphere.com/wp-content/uploads/2017/12/lowes-work-table-113017-870x870.jpg"
+      },
+      {
+        
+        "pname": "Conference Table",
+        "status": "InActive",
+        "color": "green",
+        "pdesc": "conference table often has plugs and ports for laptops and phones.",
+        "price":288,
+        "img":"https://www.homestratosphere.com/wp-content/uploads/2017/12/overstock-small-redwood-colored-conference-table-113017-870x870.jpg"
+      } ,
+      
+      {
+        
+        "pname": "Pool Table",
+        "status": "Out of Stock",
+        "color": "yellow",
+        "pdesc": "A pool table is used for pocket billiards. It has a solid frame,  a total of six pocket on its sides and a play field ",
+        "price":199,
+        "img":"https://www.homestratosphere.com/wp-content/uploads/2017/12/classic-bamboo-laminate-pool-table-hay-033018.jpg"
+      },
+      {
+        
+        "pname": "Ping Pong Table",
+        "status": "Out of Stock",
+        "color": "yellow",
+        "pdesc": "A ping pong table is divided into two parts. It usually has a matte finish for the ball to be able to bounce effectively.",
+        "price":450,
+        "img":"https://www.homestratosphere.com/wp-content/uploads/2017/12/dark-gray-table-tennis-table-hay-033018-e1522416848931.jpg"
+      } ,
+      {
+        
+        "pname": "Foosball Table",
+        "status": "Out of Stock",
+        "color": "yellow",
+        "pdesc":"table-top game usually seen on arcades and play rooms. ",
+        "price":8251,
+        "img":"https://www.homestratosphere.com/wp-content/uploads/2017/12/wooden-foosball-table-hay-033018-870x870.jpg"
+      }
+      
+]

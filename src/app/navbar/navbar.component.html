@@ -2,7 +2,7 @@
     <div class="container-fluid" style="background-color:navy">
       <a class="navbar-brand" href="#"style="color:white">
         <img src="/assets/images/logo.jpg" href=" https://github.com/Bluenile31/my_te_angular_app">
-        <i class="fa-sharp fa-solid "></i> Furnitures</a>
+        <i class="fa-sharp fa-solid "routerLink=" "></i> Furnitures</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,9 +25,9 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" routerLink="chairs">Chairs</a></li>
-              <li><a class="dropdown-item" routerLink="#">Tables</a></li>
+              <li><a class="dropdown-item" routerLink="tables">Tables</a></li>
 
-              <li><a class="dropdown-item" routerLink="#">Beds</a></li>
+              <li><a class="dropdown-item" routerLink="beds">Beds</a></li>
               <li><a class="dropdown-item" routerLink="#">Sofa</a></li>
               
             </ul>
@@ -40,11 +40,11 @@
             <!--<button class="btn btn-outline-success" type="submit">Search</button>-->
             <br>
 
-            <!--&nbsp;&nbsp;&nbsp;-->
+            &nbsp;&nbsp;&nbsp;
             
-            <app-search [product]="productentered">
+            <!--<app-search [product]="productentered">
                 abcd
-            </app-search><br>
+            </app-search><br>-->
           </form>
           
       </div>

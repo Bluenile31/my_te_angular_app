@@ -1,8 +1,13 @@
 <br><br><br><br>
 <marquee style="color:red;text-shadow: 5px;">
-    <h3> Chairs at Unbelievable Offers!!!! Buy Now</h3>
+
+    <h6>
+        <div class="fa-3x">
+            <i class="fa-solid fa-bell fa-shake"></i>Tables at Unbelievable Offers!!!! Buy Now
+        </div>
+    </h6>
 </marquee>
-<div *ngFor="let prod of product" style="border:none;float:left;" [ngSwitch]="prod.status">
+<div *ngFor="let t of table" style="border:none;float:left">
     <div class="row">
         <!--1st column-->
         <div class="col ">
@@ -16,33 +21,33 @@
                     style="margin-top:10px;border-style:solid;border-color:black;border-radius:15px;margin-left: 100px;margin-right: 30px;">
                     <div class="col-lg-3">
                         <!--Property Binding-->
-                        <img [src]="prod.img">
+                        <img [src]="t.img">
                     </div>
                     <div class="col-lg-9" style="margin-top:20px;">
                         <!--Interpolation Binding-->
                         <div class="text">
-                            Product: {{prod.pname | uppercase}}
+                            Product: {{t.pname }}
                             <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
 
                         </div>
 
                         <div class="text" [hidden]="productDetail">
-                            Description: {{prod.pdesc}}
+                            Description: {{t.pdesc}}
                             <br>
                             <div class="text2">
-                            Price: {{prod.price | currency:'USD'}}<br></div>
+                            Price: {{t.price | currency:'USD'}}<br></div>
 
 
                         </div>
                         <div class="text">
                             <ul *ngSwitchCase="'Active'" class="green">
-                                <div class="text2">{{prod.status | uppercase}}</div>
+                                <div class="text2">{{t.status}}</div>
                             </ul>
                             <ul *ngSwitchCase="'InActive'" class="text-danger">
-                                <div class="text2">{{prod.status | lowercase}}</div>
+                                <div class="text2">{{t.status}}</div>
                             </ul>
                             <ul *ngSwitchDefault class="text-warning">
-                                <div class="text2">{{prod.status}}</div>
+                                <div class="text2">{{t.status}}</div>
                             </ul>
                         </div>
                     </div>

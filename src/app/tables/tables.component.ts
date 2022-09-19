@@ -1,17 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import * as ch from "../data/chairs.json"
+import * as tab from "../data/tables.json"
 @Component({
-  selector: 'app-chairs',
-  templateUrl: './chairs.component.html',
-  styleUrls: ['./chairs.component.css']
+  selector: 'app-tables',
+  templateUrl: './tables.component.html',
+  styleUrls: ['./tables.component.css']
 })
-export class ChairsComponent implements OnInit {
+export class TablesComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
   }
-  product:any = (ch as any).default;
+  table:any = (tab as any).default;
+
   productDetail=false;
   //Event to perform the toggle effect
   showproductDetailsToggle()

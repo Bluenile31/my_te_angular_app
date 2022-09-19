@@ -1,0 +1,153 @@
+[
+    {
+        
+        "pname": "Twin Bed",
+        "status": "Active",
+        "color": "green",
+        "pdesc":"It is 38 inches wide and 75 inches long. Its a great space-saving bed for single sleepers",
+        "price":500,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/4lGaRm2hDfjFoeEUQqZdJv/c58393747290745cb25f2adb19f4f176/01-twin.jpg"
+      },
+      {
+        
+        "pname": "Twin XL",
+        "status": "Active",
+        "color": "green",
+        "pdesc": "It is 38 inches wide and 80 inches long. It’s great for taller teenagers, and single sleepers with limited space.",
+        "price":900,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/4VLEMqUpb8akkIiarUg2k7/f0ff7bee5b998e9fc93ad51444994b30/04-queen.jpg"
+      },
+      {
+        
+        "pname": "Queen",
+        "status": "Active",
+        "color": "green",
+        "pdesc":"It offers plenty of space for single sleepers and works best for couples.",
+        "price":459,
+        "img":"https://www.homestratosphere.com/wp-content/uploads/2017/12/amazon-prepac-sonoma-2-drawer-nightstand-122017-870x870.jpg"
+      },
+      {
+        
+        "pname": "King bed",
+        "status": "InActive",
+        "color": "red",
+        "pdesc":"A king mattress is the widest mattress on the market at 76 inches wide and 80 inches long. ",
+        "price":1377,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/6xFSpkQy2X2e3h2xjFh2Gm/53d8b1ca9335b837507d74bf033efbce/05-king.jpg"
+      },
+      
+      
+      {
+        
+        "pname": "Futon Bed",
+        "status": "InActive",
+        "color": "red",
+        "pdesc": "a futon can double as a couch and bed. It is a traditional Japanese style of bedding",
+        "price":455,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/6CGc8zcu3lKH34aEtYKh33/7126436e385a89fb284c32b312524cd9/08-futon.jpg"
+      },
+      {
+        
+        "pname": "Waterbed",
+        "status": "InActive",
+        "color": "green",
+        "pdesc": "As opposed to memory foam or spring, a waterbed is, as the name suggests, filled with water. ",
+        "price":288,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/4KT5ofz84aB8Q3Prl8xTY0/386876f02dec4a0844410ee7511c2903/09-waterbed.jpg"
+      } ,
+      
+      {
+        
+        "pname": "Bookcase Bed",
+        "status": "Out of Stock",
+        "color": "yellow",
+        "pdesc": "Bookcase bed designs are perfect for anyone who likes to snuggle up with a good book before bed. ",
+        "price":199,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/73SiEkPgIWi3f0XtP6lNyc/58e5c1d2bfcfdb68eaaa427f1157a93c/11-bookcase-bed.jpg"
+      },
+      {
+        
+        "pname": "Convertible Bed",
+        "status": "Active",
+        "color": "green",
+        "pdesc":"If you love things that are multifunctional, you’re going to love a convertible bed. ",
+        "price":500,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/QNhTrLGs2pRkUUNGnoMBN/c509e104e5a3b2d7ebb78eb9f94af96d/13-convertible-bed.jpg"
+      },
+      {
+        
+        "pname": "Four-Poster Bed",
+        "status": "Active",
+        "color": "green",
+        "pdesc": "Four-poster beds are known for the distinct posts that rise up from each corner.",
+        "price":900,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/11WcbGuzdOm4Gv9uoMNpGv/8e7e075cb88ee7365da1ae0a247217fc/14-four-poster-bed.jpg"
+      },
+      {
+        
+        "pname": "Round Bed",
+        "status": "Out of Stock",
+        "color": "yellow",
+        "pdesc": " The size of this style of bed can be compared to the length of a king-sized mattress.",
+        "price":450,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/2qb070Jw0l5ktVV0PqolEN/c4e2c601968dcbbe4c166539fd684aa1/18-round-bed.jpg"
+      } ,
+      {
+        
+        "pname": "Divan",
+        "status": "InActive",
+        "color": "green",
+        "pdesc": "These are unique as they have a specially designed base that consists of a wooden frame encased by fabric.",
+        "price":288,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/5SbTgWuaoeAAJ7vsB7sCnI/d1640e1d42fb26fb3c671d22254f4f1e/19-divan.jpg"
+      } ,
+      {
+        
+        "pname": "Ottoman Bed",
+        "status": "Out of Stock",
+        "color": "yellow",
+        "pdesc":"This is built with gas-lifting hydraulics underneath the bed that lift the mattress to reveal additional storage space.",
+        "price":8251,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/315upizpJuDFSi1UNZxo0Y/e80361754c507b221f52479a50cbc34f/20-ottoman-bed.jpg"
+      },
+      {
+        
+        "pname": "Traditional Canopy Bed",
+        "status": "Active",
+        "color": "green",
+        "pdesc":"What makes this type of bed different is that the poster connects to create a frame around the bed. ",
+        "price":459,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/6jvcUFdEvAa57S8LAssotO/85ee6a8a95a7cc4fbe876d1c21658d10/21-canopy-bed.jpg"
+      },
+      {
+        
+        "pname": "Hanging Bed",
+        "status": "InActive",
+        "color": "red",
+        "pdesc":"there are a variety of ways you can utilize a hanging bed in your living space. ",
+        "price":1377,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/8aqYUeJexTtES07gwdf5D/ffdd4548aa2bd3701f40c4134fe11cc7/25-hanging-bed.jpg"
+      },
+      
+      
+      {
+        
+        "pname": "Magnetic Floating Bed",
+        "status": "InActive",
+        "color": "red",
+        "pdesc": "This is made of permanent magnetic that uses opposing magnets",
+        "price":455,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/1quilzumluUBs1iE0zcvZ5/f06833ef0f88d82def39a229358bc667/27-floating-bed-Janjaap-Ruijssenaars.jpg"
+      },
+      {
+        
+        "pname": "Rocking Bed",
+        "status": "InActive",
+        "color": "green",
+        "pdesc": "A rocking bed mimics that same rocking motion with a circular frame that has a motor attached.",
+        "price":288,
+        "img":"https://images.ctfassets.net/q5lwz1whkyct/5DUtBnBU4ziVj0QLrP6Mlc/5b29f572a857ff53a187a479b9bdc2e7/29-rocking-bed-ThingsIDesire.jpg"
+      } 
+      
+      
+]

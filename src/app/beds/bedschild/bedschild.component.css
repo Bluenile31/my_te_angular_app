@@ -1,0 +1,52 @@
+img{
+    height:200px;
+    width:250px;
+    margin-left:70px;
+    margin-top:30px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+.prodimg{
+    height:250px;
+    width:300px;
+    margin-left:50px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+    justify-content: center;
+
+}
+.row1{
+    width: 400px;
+    height: 500px;
+   
+    border: 5px solid blue;
+}
+h6 {
+    text-shadow: 2px 2px blue;
+  }
+.text{
+    margin-left: 60px;
+    text-align:justify;
+    
+
+}
+.text1{
+    margin-left: 40px;
+}
+.red {
+    color: red;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .yellow {
+    color: yellow;
+  }
+  .text2{
+    text-align: center;
+    
+
+  }
