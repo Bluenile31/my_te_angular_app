@@ -1,0 +1,20 @@
+.prodimg{
+    height: 70px;
+    width:70px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+.abc{
+    color: red;
+    background-color: aliceblue;
+    text-align: center;
+    font-family:cursive;
+    
+
+}
+.xyz{
+    color:crimson;
+    font-size: xx-large;
+    background-color: beige;
+
+}

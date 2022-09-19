@@ -8,6 +8,7 @@ import { MainscComponent } from './mainsc/mainsc.component';
 import { ChairsComponent } from './chairs/chairs.component';
 import { TablesComponent } from './tables/tables.component';
 import { BedsComponent } from './beds/beds.component';
+import { OffersComponent } from './offers/offers.component';
 
 const routes:Routes=[
   //{path:'',component:NavbarComponent},
@@ -16,7 +17,8 @@ const routes:Routes=[
   //{path:'Products',component:CardsComponent},
   {path:'chairs',component:ChairsComponent},
   {path:'tables',component:TablesComponent},
-  {path:'beds',component:BedsComponent}
+  {path:'beds',component:BedsComponent},
+  {path:'offers',component:OffersComponent}
 
 ];
 @NgModule({

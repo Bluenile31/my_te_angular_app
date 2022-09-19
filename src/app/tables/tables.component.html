@@ -7,7 +7,7 @@
         </div>
     </h6>
 </marquee>
-<div *ngFor="let t of table" style="border:none;float:left">
+<div *ngFor="let t of table" style="border:none;float:left"[ngSwitch]="t.status">
     <div class="row">
         <!--1st column-->
         <div class="col ">

@@ -1,1 +1,24 @@
-<p>offers works!</p>
+<br><br><br>
+<div *ngFor="let a of alll.slice(0,17)" style="border:none;float:left;">
+    <!--Property Binding-->
+    <img [src]="a.img" class="prodimg">
+</div><br>
+<br><br><br>
+<h1 class="abc">OFFERS</h1>
+<div *ngFor="let a of alll.slice(17,34)" style="border:none;float:left;">
+    <!--Property Binding-->
+    <img [src]="a.img" class="prodimg">
+</div><br><br><br><br><br>
+<marquee class="xyz">FLAT 50% OFF ON CHAIRS</marquee>>
+
+<div>
+    <app-bedschild [b]="b" *ngFor="let b of alll.slice(18,21)" style="border:none;float:left;"></app-bedschild>
+</div><br><br>
+<marquee class="xyz">UPTO 40% OFF ON TABLES</marquee>>
+<div>
+    <app-bedschild [b]="b" *ngFor="let b of alll.slice(27,30)" style="border:none;float:left;"></app-bedschild>
+</div><br><br>
+<marquee class="xyz">UPTO 30% OFF ON BEDS</marquee>>
+<div>
+    <app-bedschild [b]="b" *ngFor="let b of alll.slice(0,3)" style="border:none;float:left;"></app-bedschild>
+</div>
