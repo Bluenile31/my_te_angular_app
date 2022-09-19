@@ -3,22 +3,34 @@
     <!--Property Binding-->
     <img [src]="a.img" class="prodimg">
 </div><br>
+
 <br><br><br>
-<h1 class="abc">OFFERS</h1>
+<h1 class="abc">
+    <i class="fa-solid fa-fa-shake" >OFFERS</i>
+    
+</h1>
 <div *ngFor="let a of alll.slice(17,34)" style="border:none;float:left;">
     <!--Property Binding-->
     <img [src]="a.img" class="prodimg">
 </div><br><br><br><br><br>
-<marquee class="xyz">FLAT 50% OFF ON CHAIRS</marquee>>
+<h3 class="xyz1">
+    <i class="fa-solid fa-beat">FLAT 50% OFF ON CHAIRS</i>
+</h3>>>
 
 <div>
     <app-bedschild [b]="b" *ngFor="let b of alll.slice(18,21)" style="border:none;float:left;"></app-bedschild>
 </div><br><br>
-<marquee class="xyz">UPTO 40% OFF ON TABLES</marquee>>
+<h3 class="xyz1">
+    <i class="fa-solid fa-beat">
+    UPTO 40% OFF ON TABLES</i>
+</h3>>
 <div>
     <app-bedschild [b]="b" *ngFor="let b of alll.slice(27,30)" style="border:none;float:left;"></app-bedschild>
 </div><br><br>
-<marquee class="xyz">UPTO 30% OFF ON BEDS</marquee>>
+<h3 class="xyz1">
+    <i class="fa-solid fa-beat">
+    UPTO 30% OFF ON BEDS</i>
+</h3>>
 <div>
     <app-bedschild [b]="b" *ngFor="let b of alll.slice(0,3)" style="border:none;float:left;"></app-bedschild>
 </div>

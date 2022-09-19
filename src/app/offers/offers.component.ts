@@ -1,8 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import * as off from "../data/allitems.json"
-//import * as ch from "../data/chairs.json"
-//import * as tab from "../data/tables.json"
-//import * as b from "../data/beds.json";
+
 @Component({
   selector: 'app-offers',
   templateUrl: './offers.component.html',
@@ -11,11 +9,27 @@ import * as off from "../data/allitems.json"
 export class OffersComponent implements OnInit {
 
   constructor() { }
+  @Input()b:any
+
 
   ngOnInit(): void {
   }
-  alll:any = (off as any).default;
-  //product:any = (ch as any).default;
-  //table:any = (tab as any).default;
-  //alll:any=(b as any).default;
+  productDetail=false;
+  
+  showproductDetailsToggle()
+  {
+    this.productDetail=!this.productDetail;
+  }
+ 
+  toggleContent(){
+    var content='';
+    if(this.productDetail){
+      content='fa fa-plus';
+    }
+    else{
+      content='fa fa-minus';
+    }
+    return content;
+  }
+  alll:any=(off as any).default;
 }
