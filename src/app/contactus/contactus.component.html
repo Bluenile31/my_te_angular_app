@@ -1,0 +1,45 @@
+<br><br><br><br><br>
+<div *ngFor="let t of contact" style="border:none;float:left">
+    <div class="row">
+        <!--1st column-->
+        <div class="col ">
+            <!--Property Binding-->
+            <!--<img [src]="t.img" class="prodimg">-->
+        </div>
+        <!--2nd column-->
+        <div class="card " style="border:none;">
+            <div class="card-body col">
+                <div class="row1"
+                    style="margin-top:10px;border-style:solid;border-color:black;border-radius:15px;margin-left: 0px;margin-right: 0px;">
+                    <div class="col-lg-3">
+                        <!--Property Binding-->
+                        <img [src]="t.img">
+                    </div>
+                    <div class="col-lg-9" style="margin-top:20px;">
+                        <!--Interpolation Binding-->
+                        <div class="text">
+                            Product: {{t.ename }}
+                            <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+
+                        </div>
+
+                        <div class="text" [hidden]="productDetail">
+                            Description: {{t.edesg}}
+                            <br>
+                            <div class="text2">
+                            Price: {{t.phno }}<br></div>
+
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--3rd column-->
+        <div class="col ">
+            <!--Property Binding-->
+            <!--<img [src]="t.img" class="prodimg">-->
+        </div>
+    </div>
+</div>

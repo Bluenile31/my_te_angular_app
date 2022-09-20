@@ -10,6 +10,8 @@ import { TablesComponent } from './tables/tables.component';
 import { BedsComponent } from './beds/beds.component';
 import { OffersComponent } from './offers/offers.component';
 import { CartComponent } from './cart/cart.component';
+import { Contactus } from './contactus';
+import { ContactusComponent } from './contactus/contactus.component';
 
 const routes:Routes=[
   //{path:'',component:NavbarComponent},
@@ -20,7 +22,8 @@ const routes:Routes=[
   {path:'tables',component:TablesComponent},
   {path:'beds',component:BedsComponent},
   {path:'offers',component:OffersComponent},
-  {path:'cart',component:CartComponent}
+  {path:'cart',component:CartComponent},
+  {path:'contactus',component:ContactusComponent}
 
 
 ];

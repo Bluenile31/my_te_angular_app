@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Contactus } from '../contactus';
+import { ContactusService } from '../contactus.service';
 
 @Component({
   selector: 'app-mainsc',
@@ -7,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainscComponent implements OnInit {
 
-  constructor() { }
+  contact: Contactus[]=[];
+  constructor(private contactservice:ContactusService) { }
   ProductDetails = [
     {
       "pid": "100",
@@ -63,6 +66,10 @@ export class MainscComponent implements OnInit {
   ]
 
   ngOnInit(): void {
+    const contactObservable=this.contactservice.getContactusDetails();
+    contactObservable.subscribe((contactData:Contactus[])=>{
+      this.contact=contactData;
+    });
   }
 
 }

@@ -16,6 +16,7 @@ import { CounterchildComponent } from './counter/counterchild/counterchild.compo
 import { AdsComponent } from './ads/ads.component';
 import { OffersComponent } from './offers/offers.component';
 import { CartComponent } from './cart/cart.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CartComponent } from './cart/cart.component';
     CounterchildComponent,
     AdsComponent,
     OffersComponent,
-    CartComponent
+    CartComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
