@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { AuthService } from '../auth.service';
+import { Router } from '@angular/router';
 import * as off from "../data/allitems.json"
 
 @Component({
@@ -8,7 +10,12 @@ import * as off from "../data/allitems.json"
 })
 export class OffersComponent implements OnInit {
 
-  constructor() { }
+  constructor(private auth: AuthService, private route: Router) { }
+
+  logOut() {
+    this.auth.logout();
+    this.route.navigate(['']);
+}
   @Input()b:any
 
 

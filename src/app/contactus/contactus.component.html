@@ -18,16 +18,16 @@
                     <div class="col-lg-9" style="margin-top:20px;">
                         <!--Interpolation Binding-->
                         <div class="text">
-                            Product: {{t.ename }}
+                            Name: {{t.ename }}
                             <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
 
                         </div>
 
                         <div class="text" [hidden]="productDetail">
-                            Description: {{t.edesg}}
+                            Designation: {{t.edesg}}
                             <br>
                             <div class="text2">
-                            Price: {{t.phno }}<br></div>
+                            Phone  No: {{t.phno }}<br></div>
 
 
                         </div>
