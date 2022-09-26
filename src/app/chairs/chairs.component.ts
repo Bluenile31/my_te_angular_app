@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Input } from '@angular/core';
+import { CartService } from '../cart.service';
+import { Cartitem } from '../cartitem';
+import Swal from 'sweetalert2';
 import * as ch from "../data/chairs.json"
 @Component({
   selector: 'app-chairs',
@@ -7,7 +11,8 @@ import * as ch from "../data/chairs.json"
 })
 export class ChairsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private cartsvc:CartService) { }
+  
 
   ngOnInit(): void {
   }

@@ -1,8 +1,5 @@
-<span style="float:right;margin-right:10px;" (click)="logOut()">
-    <strong>
-        <u>Log out</u>
-    </strong>
-  </span>
+<br><br><br>
+
   <br>
   <br>
   <br>
@@ -31,8 +28,8 @@
       <tbody>
         <tr *ngFor="let product of productData">
           <td>{{product.id}}</td>
-          <td>{{product.pname}}</td>
-          <td>{{product.pdescription}}</td>
+          <td>{{product.pname | uppercase }}</td>
+          <td>{{product.pdesc}}</td>
           <td>{{product.price}}</td>
           <td>
             <img [src]="product.img" class="prodimg">

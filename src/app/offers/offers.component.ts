@@ -10,12 +10,9 @@ import * as off from "../data/allitems.json"
 })
 export class OffersComponent implements OnInit {
 
-  constructor(private auth: AuthService, private route: Router) { }
+  constructor() { }
 
-  logOut() {
-    this.auth.logout();
-    this.route.navigate(['']);
-}
+  
   @Input()b:any
 
 

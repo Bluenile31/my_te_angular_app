@@ -30,21 +30,16 @@
                             Description: {{prod.pdesc}}
                             <br>
                             <div class="text2">
-                            Price: {{prod.price | currency:'USD'}}<br></div>
+                            Price: {{prod.price | currency:'USD'}}<br>
+                            <app-counter></app-counter>
+                        </div>
+                            
 
 
                         </div>
-                        <div class="text">
-                            <ul *ngSwitchCase="'Active'" class="green">
-                                <div class="text2">{{prod.status | uppercase}}</div>
-                            </ul>
-                            <ul *ngSwitchCase="'InActive'" class="text-danger">
-                                <div class="text2">{{prod.status | lowercase}}</div>
-                            </ul>
-                            <ul *ngSwitchDefault class="text-warning">
-                                <div class="text2">{{prod.status}}</div>
-                            </ul>
+                        
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -55,4 +50,3 @@
             <!--<img [src]="t.img" class="prodimg">-->
         </div>
     </div>
-</div>

@@ -4,7 +4,7 @@
         "pname": "Twin Bed",
         "status": "Active",
         "color": "green",
-        "pdesc":"It is 38 inches wide and 75 inches long. Its a great space-saving bed for single sleepers",
+        "pdesc":"Its a great space-saving bed for single and long sleepers,",
         "price":500,
         "img":"https://images.ctfassets.net/q5lwz1whkyct/4lGaRm2hDfjFoeEUQqZdJv/c58393747290745cb25f2adb19f4f176/01-twin.jpg"
       },
@@ -13,7 +13,7 @@
         "pname": "Twin XL",
         "status": "Active",
         "color": "green",
-        "pdesc": "It is 38 inches wide and 80 inches long. It’s great for taller teenagers, and single sleepers with limited space.",
+        "pdesc": "It is 38 inches wide and 80 inches long. It’s great for taller teenagers.",
         "price":900,
         "img":"https://images.ctfassets.net/q5lwz1whkyct/4VLEMqUpb8akkIiarUg2k7/f0ff7bee5b998e9fc93ad51444994b30/04-queen.jpg"
       },
@@ -171,7 +171,7 @@
         "pname": "Rocking Chair",
         "status": "Active",
         "color": "green",
-        "pdesc":"Marked by its curved band (rocker) design, which allows occupants to rock back and forth.",
+        "pdesc":"Marked by its curved band design, which allows to rock back and forth.",
         "price":459,
         "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rocking-chair-1575497438.jpeg?crop=1xw:1xh;center,top&resize=980:*"
       },
@@ -180,7 +180,7 @@
         "pname": "Club Chair",
         "status": "InActive",
         "color": "red",
-        "pdesc":"Spacious, plush, and typically sold in leather, the club chair is a classic piece of living room furniture",
+        "pdesc":"Spacious, plush, and typically sold in leather,classic piece of living room furniture",
         "price":1377,
         "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/club-chair-2-1575574780.jpg?crop=0.435xw:0.436xh;0.289xw,0.276xh&resize=980:*"
       },
@@ -191,7 +191,7 @@
         "pname": "Ghost Chair",
         "status": "InActive",
         "color": "red",
-        "pdesc": "Made from polycarbonate plastic, the ghost chair is beloved for its unique transparency",
+        "pdesc": "Made from polycarbonate plastic, is beloved for its unique transparency",
         "price":455,
         "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ghost-chair-1575497442.jpeg?crop=0.4200076365024819xw:1xh;center,top&resize=980:*"
       },
@@ -257,7 +257,7 @@
         "pname": "Bedside Table",
         "status": "Active",
         "color": "green",
-        "pdesc":"These almost necessary pieces of furniture make it helpful for placing items within arms-reach from the bed",
+        "pdesc":"to keep necessary pieces of furniture & placing in arms-reach from the bed",
         "price":459,
         "img":"https://www.homestratosphere.com/wp-content/uploads/2017/12/amazon-prepac-sonoma-2-drawer-nightstand-122017-870x870.jpg"
       },

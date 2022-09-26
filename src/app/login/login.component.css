@@ -13,13 +13,17 @@ h4{
 
 form {
     padding: 20px;
-    margin-left: 400px;
-    margin-top: 40px;
-    width: 40%;
+   
+    margin-left: 200px;
+    margin-top: 200px;
+    width: 50%;
     border-style: inset;
     border-radius: 10px;
     border-color: black;
-    box-shadow: 2px 3px 4px yellow;
+    box-shadow: 2px 3px 4px;
+    text-align:start;
+    background-image: url("https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZ1cm5pdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    color:white;
 }
 
 /*form:hover {

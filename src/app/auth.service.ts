@@ -6,7 +6,7 @@ import { Observable,of } from 'rxjs';
 export class AuthService {
   isAuthenticate:boolean=false;
   login(email: string, password: string): Observable <boolean> {
-    if (email === 'admin@gmail.com' && password === 'admin') {
+    if (email === 'admin@gmail.com' && password === 'admin@123') {
       this.isAuthenticate = true;
       return of(true);
     }

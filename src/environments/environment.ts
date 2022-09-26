@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  BASE_URL:"https://agile-sea-51108.herokuapp.com/signupUsersList"
-  
+  userapi:"http://localhost:3000/users",
+  cartapi:"http://localhost:3000/cart"
 };
 
 /*

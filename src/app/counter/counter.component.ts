@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-counter',
@@ -12,12 +12,13 @@ export class CounterComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  count:number=1;
+  count=1;
+  
 
   //Receive the counterValue from counterchild
 
-  receiveValue($event:number){
-    this.count=$event;
+  receivecount($event: number){
+    this.count = $event;
   }
 
 }

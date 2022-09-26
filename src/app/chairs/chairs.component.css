@@ -18,7 +18,7 @@ img{
 }
 .row1{
   width: 400px;
-  height: 450px;
+  height: 520px;
   border: 5px solid blue;
 }
 h6 {
@@ -46,4 +46,8 @@ h6 {
 .text2{
   text-align: center;
   
+}
+.nil{
+  margin-left: 50px;
+  align-items: center;
 }

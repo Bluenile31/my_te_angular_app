@@ -16,12 +16,9 @@ export class ProductdetailsComponent implements OnInit {
   showAdd!: boolean;
   showUpdate!: boolean;
 
-  constructor(private auth: AuthService, private route: Router,private formbuilder: FormBuilder, private api:ProductapiService) { }
+  constructor(private formbuilder: FormBuilder, private api:ProductapiService) { }
 
-  logOut() {
-    this.auth.logout();
-    this.route.navigate(['']);
-  }
+ 
 
   ngOnInit(): void {
     this.formValue = this.formbuilder.group({

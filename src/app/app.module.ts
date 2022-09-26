@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
@@ -21,6 +22,7 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { CartItemsComponent } from './cart-items/cart-items.component';
 
 @NgModule({
   declarations: [
@@ -41,13 +43,15 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
     ContactusComponent,
     RegisterComponent,
     LoginComponent,
-    ProductdetailsComponent
+    ProductdetailsComponent,
+    CartItemsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

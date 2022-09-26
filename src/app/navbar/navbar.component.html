@@ -10,21 +10,21 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav" style="color:white">
           <li class="nav-item">
-            <a class="nav-link active"style="color:white" aria-current="page" routerLink=" ">Home</a>
+            <a class="nav-link active"style="color:white" aria-current="page" routerLink="">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color:white"routerLink="offers">Offers</a>
+            <a class="nav-link" style="color:white"routerLink="offers"*ngIf="auth">Offers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color:white" routerLink="prod_details">All Products</a>
+            <a class="nav-link" style="color:white" routerLink="prod_details"*ngIf="auth">All Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color:white"routerLink="cart">Cart</a>
+            <a class="nav-link" style="color:white"routerLink="cartitem"*ngIf="auth">Cart</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style="color:white" routerLink="register">Register</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown"*ngIf="auth">
             <a class="nav-link dropdown-toggle" routerLink="#" id="navbarDropdownMenuLink" role="button"
               data-bs-toggle="dropdown" aria-expanded="false"style="color:white">
               Products 
@@ -43,17 +43,21 @@
           </li>
         </ul>
         <form class="d-flex">
-            <input type="text" #productname placeholder="Search" style="border-radius:10px;">&nbsp;
+            <!--<input type="text" #productname placeholder="Search" style="border-radius:10px;">&nbsp;
             
             <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:10px;">Search</button>
-            <!--<button class="btn btn-outline-success" type="submit">Search</button>-->
+            
             <br>
 
             &nbsp;&nbsp;&nbsp;
-            
+            <a class="btn btn-outline-warning" type="submit" style="border-radius:10px;" routerLink="login" *ngIf="auth">Logout</a>
             <app-search [product]="productentered">
                 abcd
-            </app-search><br>
+            </app-search><br>-->
+            <br>
+             &nbsp;&nbsp;&nbsp;
+            <a class="btn btn-outline-warning" type="submit" style="border-radius:10px;color:black;" routerLink="login"
+              *ngIf="auth">Logout</a>
           </form>
           
       </div>

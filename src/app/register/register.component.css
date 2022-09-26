@@ -1,0 +1,33 @@
+input {
+    width: 60%;
+    margin-left: 100px;
+}
+
+label {
+    color:red;
+    margin-left: 100px;
+}
+
+form {
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 50%;
+    border-style: inset;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 2px 3px 4px rgb(31, 31, 28);
+    background-image: url("https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+     color: white;
+}
+
+button {
+    margin-left: 230px;
+}
+
+span {
+    width: 100%;
+}
+
+   
+       

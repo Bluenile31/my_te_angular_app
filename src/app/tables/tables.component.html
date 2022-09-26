@@ -36,20 +36,16 @@
                             <br>
                             <div class="text2">
                             Price: {{t.price | currency:'USD'}}<br></div>
+                            <br>
+                            <div class="xyz">
+                            Quantity: <input type="number" [(ngModel)]="quantity" name="quantity" [(ngModel)]="value" style="width:50px;border-radius:10px;margin-left: 10px;" min="1" max="10">
+                            <br>
+                            <button class="btn btn-dark m-3" (click)="addToCart(t)" style="width:150px;border-radius:10px;margin-left: 100px;">Add to Cart</button>
+                        </div>
 
 
                         </div>
-                        <div class="text">
-                            <ul *ngSwitchCase="'Active'" class="green">
-                                <div class="text2">{{t.status}}</div>
-                            </ul>
-                            <ul *ngSwitchCase="'InActive'" class="text-danger">
-                                <div class="text2">{{t.status}}</div>
-                            </ul>
-                            <ul *ngSwitchDefault class="text-warning">
-                                <div class="text2">{{t.status}}</div>
-                            </ul>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

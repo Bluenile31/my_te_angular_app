@@ -14,11 +14,12 @@ import { Contactus } from './contactus';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { AuthGuard } from './auth.guard';
+import { CartItemsComponent } from './cart-items/cart-items.component';
 import { RegisterComponent } from './register/register.component';
 const routes:Routes=[
   //{path:'',component:NavbarComponent},
   //{path:'cards',component:SearchComponent},
-  //{path:' ',component:MainscComponent},
+  {path:'',component:MainscComponent},
   //{path:'Products',component:CardsComponent},
   {path:'chairs',component:ChairsComponent},
   {path:'tables',component:TablesComponent},
@@ -26,9 +27,10 @@ const routes:Routes=[
   {path:'offers',component:OffersComponent},
   {path:'cart',component:CartComponent},
   {path:'contactus',component:ContactusComponent},
-  {path:' ',component:LoginComponent},
+  {path:'login',component:LoginComponent},
   {path:'prod_details',component:ProductdetailsComponent,canActivate:[AuthGuard]},
-  {path:'register',component:RegisterComponent}
+  {path:'register',component:RegisterComponent},
+  {path:'cartitem',component:CartItemsComponent}
 
 
 ];

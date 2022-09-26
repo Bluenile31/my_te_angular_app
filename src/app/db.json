@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "id": 2,
-      "pname": "Twin XL",
-      "status": "Active",
-      "color": "green",
-      "pdesc": "It is 38 inches wide and 80 inches long. It’s great for taller teenagers, and single sleepers with limited space.",
-      "price": 900,
-      "img": "https://images.ctfassets.net/q5lwz1whkyct/4VLEMqUpb8akkIiarUg2k7/f0ff7bee5b998e9fc93ad51444994b30/04-queen.jpg"
-    },
-    {
       "id": 3,
       "pname": "Queen",
       "status": "Active",
@@ -154,20 +145,9 @@
       "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/directors-chair2-1575498090.jpg?crop=1xw:1xh;center,top&resize=980:*"
     },
     {
-      "id": 19,
-      "pname": "Rocking Chair",
-      "status": "Active",
-      "color": "green",
-      "pdesc": "Marked by its curved band (rocker) design, which allows occupants to rock back and forth.",
-      "price": 459,
-      "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rocking-chair-1575497438.jpeg?crop=1xw:1xh;center,top&resize=980:*"
-    },
-    {
       "id": 20,
       "pname": "Club Chair",
-      "status": "InActive",
-      "color": "red",
-      "pdesc": "Spacious, plush, and typically sold in leather, the club chair is a classic piece of living room furniture",
+      "pdesc": "wferefv sdr4tbdgz",
       "price": 1377,
       "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/club-chair-2-1575574780.jpg?crop=0.435xw:0.436xh;0.289xw,0.276xh&resize=980:*"
     },
@@ -296,8 +276,78 @@
       "img": "data:image/webp;base64,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"
     }
   ],
-  "comments": [],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "id": 1,
+      "username": "Nilesh",
+      "useremail": "nileshhosure47@gmail.com",
+      "password": "Bluenile31",
+      "mobile": "7760227709"
+    },
+    {
+      "id": 2,
+      "username": "John",
+      "useremail": "john@gmail.com",
+      "password": "John@123",
+      "mobile": "745637826"
+    },
+    {
+      "username": "Bluenile",
+      "useremail": "nilehitler@gmail.com",
+      "password": "Bluenile31",
+      "mobile": "",
+      "id": 3
+    },
+    {
+      "username": "abcd",
+      "useremail": "abcd@gmail.com",
+      "password": "Bluenile31",
+      "mobile": "",
+      "id": 4
+    },
+    {
+      "username": "admin",
+      "useremail": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "",
+      "id": 5
+    }
+  ],
+  "cart": [
+    {
+      "pname": "Twin Bed",
+      "price": 500,
+      "img": "https://images.ctfassets.net/q5lwz1whkyct/4lGaRm2hDfjFoeEUQqZdJv/c58393747290745cb25f2adb19f4f176/01-twin.jpg",
+      "quantity": 2,
+      "id": 7
+    },
+    {
+      "pname": "Twin Bed",
+      "price": 500,
+      "img": "https://images.ctfassets.net/q5lwz1whkyct/4lGaRm2hDfjFoeEUQqZdJv/c58393747290745cb25f2adb19f4f176/01-twin.jpg",
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "pname": "Dining Table",
+      "price": 900,
+      "img": "https://www.homestratosphere.com/wp-content/uploads/2017/12/overstock-dining-table-113017-870x870.jpg",
+      "quantity": 7,
+      "id": 9
+    },
+    {
+      "pname": "Coffee Table",
+      "price": 500,
+      "img": "https://www.homestratosphere.com/wp-content/uploads/2017/11/jamiya-coffee-table-113017.jpg",
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "pname": "King bed",
+      "price": 1377,
+      "img": "https://images.ctfassets.net/q5lwz1whkyct/6xFSpkQy2X2e3h2xjFh2Gm/53d8b1ca9335b837507d74bf033efbce/05-king.jpg",
+      "quantity": 2,
+      "id": 11
+    }
+  ]
 }
